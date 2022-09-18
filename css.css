@@ -1,0 +1,111 @@
+.container {
+    max-width: 1024px;
+    margin: 0px auto;
+}
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* navbar */
+.nav-bar {
+    background-color: rgb(228, 215, 215);
+}
+
+.nav-bar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+        
+}
+
+.nav-bar-list-item {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.nav-bar-list-item:hover:nth-child(1) {
+    background-color: aqua;
+}
+
+.nav-bar-list-item:hover:nth-child(2) {
+    background-color: rgb(255, 166, 0);
+}
+
+.nav-bar-list-item:hover:nth-child(3) {
+    background-color: rgb(82, 56, 7);
+}
+
+.nav-bar-link {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+/* Flex section */
+.link-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link-list-item {
+    width: 150px;
+    height: 200px;
+    margin-top: 20px;
+    margin-right: 15px;
+    border: 2px rgb(150, 120, 120) solid;
+    position: relative;
+    
+}
+
+.link-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.link-list-item-link {
+    text-decoration: none;
+    position: absolute;
+    top: 30%;
+    color: black;
+}
+
+.link-list-item-link:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.link-list-item-text {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+}
+
+/* Logos position */
+
+.link-logo {
+    position: absolute;
+    top: 5%;
+}
+
+/* Sections colors */
+
+.et {
+    background-color: rgb(127, 233, 236, 0.4)
+}
+
+.athome {
+    background-color: rgb(219, 156, 73, 0.4)
+}
+
