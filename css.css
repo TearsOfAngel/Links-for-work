@@ -64,6 +64,7 @@ li {
     width: 150px;
     height: 200px;
     border: 2px rgb(150, 120, 120) solid;
+    border-radius: 12%;
     position: relative;
     
 }
