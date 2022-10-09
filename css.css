@@ -1,3 +1,8 @@
+html body {
+    padding: 0;
+    margin: 0;
+}
+
 .container {
     max-width: 1000px;
     margin: 0px auto;
@@ -45,6 +50,10 @@ li {
     background-color: rgb(82, 56, 7);
 }
 
+.nav-bar-list-item:hover:nth-child(4) {
+    background-color: rgb(206, 102, 102);
+}
+
 .nav-bar-link {
     text-decoration: none;
     color: black;
@@ -88,7 +97,7 @@ li {
 
 .link-list-item-link:hover {
     text-decoration: underline;
-    color: white;
+    color: rgb(18, 16, 49);
 }
 
 .link-list-item-text {
@@ -112,10 +121,10 @@ li {
 /* Sections colors */
 
 .et {
-    background-color: rgb(127, 233, 236, 0.4)
+  /*  background-color: rgba(80, 159, 212, 0.548) */
 }
 
 .athome {
-    background-color: rgb(219, 156, 73, 0.4)
+  /* background-color: rgb(219, 156, 73, 0.4) */
 }
 
